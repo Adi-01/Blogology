@@ -5,3 +5,4 @@ const axiosInstance = axios.create({
 });
 
 export default axiosInstance;
+//replace the base URL with your self created api 😇
