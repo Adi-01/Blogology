@@ -5,6 +5,3 @@ const axiosInstance = axios.create({
 });
 
 export default axiosInstance;
-
-//baseURL: "https://blogologybackend.onrender.com"
-//baseURL: "http://localhost:8000"
