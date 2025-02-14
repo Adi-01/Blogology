@@ -1,4 +1,11 @@
 <h1>Blogology</h1> 
+<p>
+    <img src="https://img.shields.io/badge/Frontend-React-blue?logo=react" alt="React Badge">
+    <img src="https://img.shields.io/badge/Backend-Django-green?logo=django" alt="Django Badge">
+    <img src="https://img.shields.io/badge/Styling-Bootstrap-blueviolet?logo=bootstrap" alt="Bootstrap Badge">
+    <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License Badge">
+    <img src="https://img.shields.io/badge/Deployment-Netlify-brightgreen?logo=netlify" alt="Netlify Badge">
+</p>
 <p>A modern blogging website built with Django and React. Share your thoughts, explore posts, and engage with a vibrant community.</p>
 <p>Check it out here: <a href="https://blogology.netlify.app" target="_blank">Blogology Website</a></p>
 <br>
