@@ -1,0 +1,80 @@
+.profile-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+}
+
+.profile-page .profile-content {
+  padding: 1.5rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.profile-page .profile-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 40px;
+}
+
+label.form-label {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.input-field {
+  color: #000 !important;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: #e6d9a2 !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.input-field:hover {
+  cursor: default !important;
+}
+
+.input-field:focus {
+  box-shadow: none !important;
+}
+
+/* "About Me" field */
+textarea#about-me {
+  height: 120px;
+  resize: none;
+}
+
+/* Buttons */
+.custom-profile-page-btn {
+  background-color: #563a9c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-profile-page-btn:hover {
+  color: #ffffff !important;
+}
+
+@media (max-width: 768px) {
+  .profile-page {
+    height: 850px;
+  }
+  .profile-page .profile-content {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-page .profile-content {
+    width: 90%;
+  }
+}

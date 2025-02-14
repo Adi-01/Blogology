@@ -1,0 +1,87 @@
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://images.pexels.com/photos/851213/pexels-photo-851213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+      center/cover no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.hero-section .container {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-section .display-4 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section .lead {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.hero-section-btn {
+  background-color: none !important;
+  font-weight: 500 !important;
+  border: 2px solid white !important;
+}
+
+.hero-section-btn:hover {
+  background: white !important;
+  color: #000 !important;
+  border: 1px solid black !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 100vh;
+    padding: 2rem 1rem;
+    background-position: center top;
+  }
+
+  .hero-section .display-4 {
+    font-size: 2rem;
+  }
+
+  .hero-section .lead {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-section .btn-primary {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+/* Extra small screens (very small phones) */
+@media (max-width: 576px) {
+  .hero-section {
+    height: 100vh;
+    padding: 1.5rem 1rem;
+    background-position: center center; /* Adjust image positioning for better appearance */
+  }
+
+  .hero-section .display-4 {
+    font-size: 1.75rem;
+  }
+
+  .hero-section .lead {
+    font-size: 0.9rem;
+  }
+
+  .hero-section .btn-primary {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+}

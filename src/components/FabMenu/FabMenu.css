@@ -1,0 +1,73 @@
+.fab-wrapper {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+}
+
+.fab {
+  background-color: #07956d;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+}
+
+.fab-options {
+  position: absolute;
+  bottom: 70px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fab-option {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #000;
+    color: white;
+  }
+}
+
+.fab-option2 {
+  background-color: #ffffff;
+  color: red;
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: red;
+    color: white;
+  }
+}

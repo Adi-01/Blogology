@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+
+/* Navbar brand (logo) */
+.navbar-brand {
+  font-family: "Bungee Shade", cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  color: white !important;
+  transition: color 0.3s ease;
+  margin-left: 0 !important;
+  cursor: pointer;
+}
+
+.navbar-brand:hover {
+  cursor: default;
+}
+
+.navbar-toggler {
+  border: none !important;
+  background: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
