@@ -1,8 +1,9 @@
 <h1>Blogology</h1> 
 <p>A modern blogging website built with Django and React. Share your thoughts, explore posts, and engage with a vibrant community.</p>
+<p>Check it out here: <a href="https://blogology.netlify.app" target="_blank">Blogology Website</a></p>
 <br>
 
-<h1>About</h1>
+<h1>About Section</h1>
 <p>Blogology is a feature-rich blogging platform designed for writers and readers alike. It offers a seamless user experience with a responsive design, allowing users to explore and engage with posts on any device.</p>
 <br>
 
